@@ -30,7 +30,7 @@ public class EmployeeController {
 	private EmployeeService employeeService;
 
 	@GetMapping("/welcome")
-	@PreAuthorize("hasAuthority('ROLE_ADMIN','ROLE_USER')")
+	//@PreAuthorize("hasAuthority('ROLE_ADMIN','ROLE_USER')")
 	public String welcome() {
 		return "Welcome to COE Base project";
 	}
