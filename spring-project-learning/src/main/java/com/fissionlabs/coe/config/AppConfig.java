@@ -15,8 +15,6 @@ import com.amazonaws.services.secretsmanager.model.GetSecretValueResult;
 import com.fissionlabs.coe.dto.AwsSecrets;
 import com.google.gson.Gson;
 
-import jakarta.activation.DataSource;
-
 @Configuration
 public class AppConfig {
 
